@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northstar Projects | Spend Analytics</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="brand">
+      <h1>Northstar Projects Pvt Ltd | Spend Analytics</h1>
+      <p id="meta-line"></p>
+    </div>
+    <div class="ctl">
+      <span class="lbl">Basis</span>
+      <div class="seg" id="basis">
+        <button data-b="effective" class="on" data-tip="Excludes declined, reversed and duplicate records">Net spend</button>
+        <button data-b="all" data-tip="Every record in the source file">All records</button>
+      </div>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+  <div class="filters"><div class="filters-in" id="filters"></div></div>
+  <div class="chips" id="chips"></div>
+</header>
+<main id="main"></main>
+<footer id="foot"></footer>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer"></aside>
+<div id="tip"></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
